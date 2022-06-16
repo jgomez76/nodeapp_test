@@ -1,2 +1,2 @@
 # nodeapp_test
-.
+..
