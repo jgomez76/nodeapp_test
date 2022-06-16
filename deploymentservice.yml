@@ -6,11 +6,11 @@ metadata:
     app: nodeapp
 spec:
   replicas: 2
+  strategy:
+    type: Recreate
   selector:
     matchLabels:
       app: nodeapp
-  strategy:
-    type: Recreate
   template:
     metadata:
       labels:
@@ -21,7 +21,6 @@ spec:
         image: jgomez1976/nodeapp:latest
         ports:
         - containerPort: 3000
-      restartPolicy: Always
         
 ---
 
