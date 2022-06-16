@@ -21,7 +21,7 @@ spec:
         image: jgomez1976/nodeapp:latest
         ports:
         - containerPort: 3000
-      imagePullPolicy: Always
+    imagePullPolicy: Always
         
 ---
 
