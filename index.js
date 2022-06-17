@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Prueba de commit desde webhook" }');
+    res.send('{ "response": "Otra prueba" }');
 });
 
 app.get('/will', function (req, res) {
