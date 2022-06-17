@@ -19,6 +19,7 @@ spec:
       containers:
       - name: nodeserver
         image: jgomez1976/nodeapp:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
         
